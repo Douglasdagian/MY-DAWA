@@ -1,5 +1,6 @@
 body{
-    background-color:rgb(238, 198, 123);
+    background-image: url("images/img-dawa-ARV.png");
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding:0;
