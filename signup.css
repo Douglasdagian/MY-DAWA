@@ -1,27 +1,94 @@
-body{
-    background-image: url("images/img-dawa-ARV.png");
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding:0;
+
+body {
+  background: palevioletred;
+  margin:0px;
+  font-family: 'Ubuntu', sans-serif;
+    background-size: 50% 60%;
+}
+h4, h5, h6, a {
+  margin:0; padding:0;
+}
+.login {
+  margin:0 auto;
+  max-width:300px;
+}
+.login-header {
+  color: gold;
+  text-align:center;
+  font-size:300%;
+}
+/* .login-header h1 {
+   text-shadow: 0px 5px 15px #000; */
+}
+.login-form {
+  border:.5px solid rgb(179, 11, 142);
+  background:#4facff;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000;
+}
+.login-form h5 {
+  text-align:left;
+  margin-left:40px;
+  color:#fff;
+}
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+    padding-bottom:10%;
+  margin:5% auto;
+  text-align:center;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  max-width:400px;
+    width: 80%;
+  line-height:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+.login-form input[type="button"] {
+  height:30px;
+  width:100px;
+  background:#fff;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: slategrey;
+  text-transform:uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
 }
 .sign-up{
-    width:500px;
-    padding:20px;
-    margin: 8% auto 0;
-    text-align: center;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
-    background: white;
+  color:#f2f2f2;
+  margin-left:-70%;
+  cursor:pointer;
+  text-decoration:underline;
 }
-#input-box{
-    padding: 10px;
-    margin: 10px 0;
-    width:95%;
-    outline: none;
+.no-access {
+  color:#1c0a85;
+  margin:20px 0px 20px -57%;
+  text-decoration:underline;
+  cursor:pointer;
 }
-button{
-    font-size: 15px;
+.try-again {
+  text-align: center;
+  color:#1c0a85;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h5 {
+    text-align:center;
+    margin:0;
+  }
+  .sign-up, .no-access {
     margin:10px 0;
     padding:10px;
     width:50%;
  }
+}
