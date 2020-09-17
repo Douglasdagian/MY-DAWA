@@ -1,0 +1,34 @@
+body, .all{
+    background-color: pink;
+    margin: 0;
+    padding: 10px;  
+}
+nav {
+    text-align: right;
+    font-family: sans-serif;
+    background-color: tomato;
+    margin-top: 5px;
+    display: inline-block;
+ul {
+    display: inline;
+    font-weight: bold;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    justify-content: right;
+}
+h1{
+    text-align: 20px right;
+    border-inline-color: black;
+    font-size: bold;
+    padding: 50px;
+    text-align: center;
+}
+home{
+    background-image: url(./image/taking-dose-2_0.png)width="400px" height="400px";
+    background-size:cover;
+    height: 500px;
+    text-align: right;
+    height: 1000;
+}
