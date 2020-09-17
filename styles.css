@@ -88,6 +88,9 @@ h4, h5, h6, a {
   }
   .sign-up, .no-access {
     margin:10px 0;
+    padding:10px;
+    width:50%;
+}
   }
   .login-button {
     margin-bottom:10px;
