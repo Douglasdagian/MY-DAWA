@@ -1,0 +1,52 @@
+header{
+    background-color: plum;
+    margin: 5px;
+    padding: 20px;
+    font-weight: bold;
+}
+body{
+    background-color: pink;
+}
+.nav{
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+#tips{
+    text-decoration: dotted;
+    font-weight: bolder;
+}
+img{
+    float: right;
+    display: flex;
+}
+#footer{
+    background-color: plum;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+h5{
+    float: right;
+    padding: 20px;
+}
+h6,h4{
+    float: left;
+    padding-left: 100px;
+}
