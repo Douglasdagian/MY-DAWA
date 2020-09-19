@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 10px;
+    background-color: pink;
+}
+.nav{
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: 20px right;
+    border-inline-color: black;
+    font-size: bold;
+    padding: 50px;
+    text-align: center;
+}
+home{
+    background-image: url(./image/taking-dose-2_0.png)width="400px" height="400px";
+    background-size:cover;
+    height: 500px;
+    text-align: right;
+    height: 1000;
+}
