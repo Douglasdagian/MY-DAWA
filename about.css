@@ -1,5 +1,5 @@
 header{
-    background-color: plum;
+    background-color: skyblue;
     margin: 5px;
     padding: 20px;
     font-weight: bold;
@@ -27,24 +27,46 @@ a{
 a:hover{
     background-color: black;
     color: white;
+#aboutus,p{
+    font-size: larger;
+    font-weight: bolder;
+    text-align; center;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-larger;
 }
 #tips{
     text-decoration: dotted;
     font-weight: bolder;
 }
-img{
-    float: right;
-    display: flex;
+h3{
+   
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-larger; 
 }
 #footer{
-    background-color: plum;
-    margin-bottom: 5px;
-    padding: 10px;
-    margin-top: 20px;
+    background-color: sky-blue;
+    margin-top: 100px;
+    padding: 150px;
 }
 h5{
+    margin-top: 5px;
     float: right;
     padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 50px;
+}
+4{
+    margin-top: 5px;
+    float: left;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 50px;
 }
 h6,h4{
     float: left;
